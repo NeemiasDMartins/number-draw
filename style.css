@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: #000000;
+}
+
+img {
+    width: 500px;
+    margin: 15px auto;
+    display: block;
+}
+
+h1,#numberSorteado {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 126px;
+}
+
+#numberSorteado {
+    margin-top: 20px;
+}
+
+input {
+    width: 342px;
+    height: 74px;
+    text-align: center;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.25);
+    margin: 0 42px;
+    margin-top: 27px;
+    font-size: 30px;
+    color: #ffffff;
+
+
+}
+
+input::placeholder {
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+#container-Result {
+    background: #ffffff;
+    width: 80px;
+    height: 65px;
+    display: block;
+    margin: 35px  auto;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 342px;
+    height: 72px;
+    border-radius: 10px;
+    background: #AEC346;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 79px;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+input:hover {
+    opacity: 0.7;
+}
+
+#valueResult {
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 15px;
+}
