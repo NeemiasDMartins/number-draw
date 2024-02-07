@@ -7,7 +7,13 @@ function numberRandom() {
 
     const result = Math.floor(Math.random() * (inputMax - inputMin + 1)) + inputMin;
 
-    valueResult.innerHTML = result
+    if (inputMin >= inputMax) {
+        alert("O valor mínimo não pode ser maior ou igual ao valor máximo!")
+        valueResult.innerHTML = ""
+    }
+    if (inputMin < inputMax) {
+        valueResult.innerHTML = result
+    }
 
 }
 

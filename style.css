@@ -16,7 +16,8 @@ img {
     display: block;
 }
 
-h1,#numberSorteado {
+h1,
+#numberSorteado {
     text-align: center;
     color: #ffffff;
     font-weight: 400;
@@ -58,7 +59,7 @@ div {
     width: 80px;
     height: 65px;
     display: block;
-    margin: 35px  auto;
+    margin: 35px auto;
 }
 
 button {
